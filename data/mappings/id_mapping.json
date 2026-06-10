@@ -1,0 +1,25 @@
+{
+  "hotels": [
+    {"supplier_id": "HOTEL-SUP-001", "internal_id": "HTL-BJ-001"},
+    {"supplier_id": "HOTEL-SUP-002", "internal_id": "HTL-BJ-002"},
+    {"supplier_id": "HOTEL-SUP-003", "internal_id": "HTL-BJ-003"},
+    {"supplier_id": "HOTEL-SUP-004", "internal_id": "HTL-BJ-004"},
+    {"supplier_id": "HOTEL-SUP-005", "internal_id": "HTL-BJ-005"},
+    {"supplier_id": "HOTEL-SUP-006", "internal_id": "HTL-BJ-006"}
+  ],
+  "sights": [
+    {"supplier_id": "SIGHT-SUP-001", "internal_id": "SIG-BJ-001"},
+    {"supplier_id": "SIGHT-SUP-002", "internal_id": "SIG-BJ-002"},
+    {"supplier_id": "SIGHT-SUP-003", "internal_id": "SIG-BJ-003"},
+    {"supplier_id": "SIGHT-SUP-004", "internal_id": "SIG-BJ-004"},
+    {"supplier_id": "SIGHT-SUP-005", "internal_id": "SIG-BJ-005"}
+  ],
+  "meals": [
+    {"supplier_id": "MEAL-SUP-001", "internal_id": "ML-BJ-001"},
+    {"supplier_id": "MEAL-SUP-002", "internal_id": "ML-BJ-002"},
+    {"supplier_id": "MEAL-SUP-003", "internal_id": "ML-BJ-003"},
+    {"supplier_id": "MEAL-SUP-004", "internal_id": "ML-BJ-004"},
+    {"supplier_id": "MEAL-SUP-005", "internal_id": "ML-BJ-005"},
+    {"supplier_id": "MEAL-SUP-006", "internal_id": "ML-BJ-006"}
+  ]
+}

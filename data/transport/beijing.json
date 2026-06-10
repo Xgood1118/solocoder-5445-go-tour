@@ -1,0 +1,38 @@
+[
+  {
+    "id": "BUS-001",
+    "route": "北京",
+    "vehicle_type": "51座大巴",
+    "capacity": 51,
+    "daily_price": 1200.00,
+    "supplier_id": "SUP-A",
+    "supplier_name": "供应商A",
+    "guide_included": false,
+    "stock": 10,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "BUS-002",
+    "route": "北京",
+    "vehicle_type": "37座中巴",
+    "capacity": 37,
+    "daily_price": 900.00,
+    "supplier_id": "SUP-B",
+    "supplier_name": "供应商B",
+    "guide_included": false,
+    "stock": 15,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "BUS-003",
+    "route": "北京",
+    "vehicle_type": "51座大巴（含导游）",
+    "capacity": 50,
+    "daily_price": 1800.00,
+    "supplier_id": "SUP-C",
+    "supplier_name": "供应商C",
+    "guide_included": true,
+    "stock": 8,
+    "updated_at": "2026-06-10T08:00:00Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "SIGHT-SUP-001",
+    "name": "故宫博物院",
+    "destination": "北京",
+    "country": "China",
+    "description": "中国明清两代的皇家宫殿，世界文化遗产",
+    "tier": "deluxe",
+    "price": 60.00,
+    "supplier_id": "SUP-A",
+    "stock": 1000,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "SIGHT-SUP-002",
+    "name": "长城（八达岭）",
+    "destination": "北京",
+    "country": "China",
+    "description": "万里长城的重要组成部分",
+    "tier": "deluxe",
+    "price": 45.00,
+    "supplier_id": "SUP-B",
+    "stock": 2000,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "SIGHT-SUP-003",
+    "name": "颐和园",
+    "destination": "北京",
+    "country": "China",
+    "description": "中国清朝时期皇家园林",
+    "tier": "standard",
+    "price": 30.00,
+    "supplier_id": "SUP-A",
+    "stock": 1500,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "SIGHT-SUP-004",
+    "name": "天坛公园",
+    "destination": "北京",
+    "country": "China",
+    "description": "明清两朝帝王祭天场所",
+    "tier": "standard",
+    "price": 15.00,
+    "supplier_id": "SUP-C",
+    "stock": 3000,
+    "updated_at": "2026-06-10T08:00:00Z"
+  },
+  {
+    "id": "SIGHT-SUP-005",
+    "name": "圆明园遗址公园",
+    "destination": "北京",
+    "country": "China",
+    "description": "清代大型皇家园林遗址",
+    "tier": "economy",
+    "price": 10.00,
+    "supplier_id": "SUP-B",
+    "stock": 5000,
+    "updated_at": "2026-06-10T08:00:00Z"
+  }
+]
