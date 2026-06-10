@@ -9,7 +9,6 @@ import (
 
 	"tourtool/internal/hotel"
 	"tourtool/internal/meal"
-	"tourtool/internal/sight"
 )
 
 type TargetAudience string
