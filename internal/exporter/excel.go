@@ -147,8 +147,6 @@ func (e *ExcelExporter) writeProductInfo(f *excelize.File, sheet string, row int
 }
 
 func (e *ExcelExporter) writePriceInfo(f *excelize.File, sheet string, row int, q *quote.QuoteResult) int {
-	startRow := row
-
 	f.MergeCell(sheet, fmt.Sprintf("A%d", row), fmt.Sprintf("B%d", row))
 	f.SetCellValue(sheet, fmt.Sprintf("A%d", row), i18n.T("price_adjustment"))
 	row++
@@ -264,8 +262,6 @@ func (e *ExcelExporter) writeItinerary(f *excelize.File, sheet string, row int, 
 func (e *ExcelExporter) writeInclusionExclusion(f *excelize.File, sheet string, row int) int {
 	startRow := row
 
-	f.SetCellValue(sheet, fmt.Sprintf("A%d", row), i18n.T("includes"))
-	f.SetCellValue(sheet, fmt.Sprintf("D%d", row), i18n.T("excludes"))
 	headerStyle, _ := f.NewStyle(&excelize.Style{
 		Font: &excelize.Font{Bold: true},
 		Fill: excelize.Fill{Type: "pattern", Color: []string{"#D5E8D4"}, Pattern: 1},
